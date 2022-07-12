@@ -7,7 +7,7 @@ const CardList = ({ robots }) => {
       <Card key={robots[i].id} name={robots[i].name} id={robots[i].id} email={robots[i].email} />
     );
   });
-
+  // hi how am i, i want to die
   return <div>{cardComponent}</div>;
 };
 
