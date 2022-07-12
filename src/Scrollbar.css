@@ -1,0 +1,9 @@
+div {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-color: #00000000;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
